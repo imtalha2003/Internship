@@ -1,0 +1,91 @@
+body {
+    background-color: #f7e7d3;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    text-align: center;
+}
+
+.header {
+    font-size: 2.5em;
+    color: #e94e77;
+}
+
+.heart, .cake {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.heart {
+    color: #e94e77;
+}
+
+.cake {
+    color: #ffb347;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img-container {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(247, 100, 100, 0.2);
+}
+
+.para1 {
+    color: #e94e77;
+}
+
+.para2 {
+    color: #ffb347;
+}
+
+.para3 {
+    color: #34a853;
+}
+
+.para4 {
+    color: #4285f4;
+}
+
+.para5 {
+    color: #fbbc05;
+}
+
+.para6 {
+    color: #ea4335;
+}
+
+.signature {
+    color: #f01c62;
+    font-size: 1.2em;
+    text-align: right;
+}
