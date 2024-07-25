@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 330px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 70px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #333;
+}
+
+.twitter .icon {
+    color: #1DA1F2;
+}
+
+.instagram {
+    background-color: #E1306C;
+    color: white;
+}
+
+.instagram .icon {
+    color: white;
+}
+
+.instagram button {
+    background-color: white;
+    color: #E1306C;
+}
+
+.instagram button:hover {
+    background-color: #ddd;
+}
+
+.youtube .icon {
+    color: #FF0000;
+}
+
+.icon {
+    font-size: 60px;
+}
